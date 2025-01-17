@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.74));   
+}
+.head-page{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    border-bottom: rgb(179, 27, 111) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(15, 15, 15, 0.836), rgba(0, 0, 0, 0.685)), url(https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg);
+}
+.now-tag{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10rem;
+}
+.image{
+    height: 50px;
+    width: 150px;
+    background-color: none;
+}
+.head-content{
+    text-align: center;
+    padding: 6rem;
+    font-size: xx-large;
+}
+.lang{
+    color: white;
+    background-color: black;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5%;
+}
+.button{
+    color: white;
+    font-weight:bold ;
+    background-color: rgba(209, 6, 6, 0.996);
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8%;
+}
+.button:hover{
+    background-color: rgb(221, 19, 19);
+}
+.lang1{
+    color: white;
+    background-color: black;
+    font-size: medium;
+    padding: 20px;
+    border-radius: 5%;
+}
+.button1{
+    color: white;
+    font-weight:bold ;
+    background-color: rgba(209, 6, 6, 0.996);
+    font-size: large;
+    padding: 18px;
+    margin: 10px;
+    border-radius: 8%;
+}
+.button1:hover{
+    background-color: rgb(221, 19, 19);
+}
+
+/* divider part */
+.divider-line{
+    height: 100px;
+    width: 100vw;
+    border-top: 4px solid rgb(129, 3, 55);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin-top: -5px;
+    box-shadow: 10px 0px 90px rgb(37, 37, 37);
+    margin-bottom: -4rem;
+    /* background-color: rgba(27, 15, 48, 0.361); */
+}
+
+/* desc part */
+.main-content{
+    width: 80%;
+    background-color: black;
+    padding: 20px 8rem ;
+}
+.description{
+    background-color: black;
+}
+
+/* trending part */
+.trending{
+    color: white;
+    /* border-top: 4px solid rgb(189, 38, 114); */
+    margin-top: 0px;
+}
+.movies-list{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+   overflow-x: auto;
+   scrollbar-width: none;
+}
+.movie-number{
+    color: black;
+    font-size: 6rem;
+    font-weight: bolder;
+    text-shadow: 5px 1px 3px white;
+    margin-top: 200px;
+
+}
+.movie1{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/e/e4/Bhool_Bhulaiyaa_3_poster.jpg");
+}
+.movie1:hover{
+    transform: scale(1.05);
+}
+.movie2{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/6c/Lucky_Baskhar_film_poster.jpg");
+}
+.movie2:hover{
+    transform: scale(1.05);
+}
+.movie3{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/5/54/Amaran_2024_poster.jpg");
+}
+.movie3:hover{
+    transform: scale(1.05);
+}
+.movie4{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/1/11/Pushpa_2-_The_Rule.jpg");
+}
+.movie4:hover{
+    transform: scale(1.05);
+}
+.movie5{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/d/d0/Carry_On_film_poster.jpg");
+}
+.movie5:hover{
+    transform: scale(1.05);
+}
+.movie6{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/6/6f/Sorgavaasal.jpg");
+}
+.movie6:hover{
+    transform: scale(1.05);
+}
+.movie7{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/4e/Vicky_Vidya_Ka_Woh_Wala_Video.jpg");
+}
+.movie7:hover{
+    transform: scale(1.05);
+}
+.movie8{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/1/11/Jigra_film_poster.jpg");
+}
+.movie8:hover{
+    transform: scale(1.05);
+}
+.movie9{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload-wikimedia-org.translate.goog/wikipedia/en/c/c1/Sikandar_Ka_Muqaddar.jpg?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc");
+}
+.movie9:hover{
+    transform: scale(1.05);
+}
+.movie10{
+    border-radius: 5%;
+    height: 300px;
+    width: 200px;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/f/f0/Devara_Part_1.jpg");
+}
+.movie10:hover{
+    transform: scale(1.05);
+}
+
+
+/* reason part */
+.reason{
+    width: 100%;
+    padding-top: 3rem;
+    color: white;
+}
+.reason-title{
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+}
+.reason-emojes1{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 6rem;
+    left: 10rem;
+    border-radius: 20%;
+}
+.reason-emojes2{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 3.8rem;
+    left: 10rem;
+    border-radius: 20%;
+}
+.reason-emojes3{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 7rem;
+    left: 10rem;
+    border-radius: 20%;
+}
+.reason-emojes4{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 4.4rem;
+    left: 10rem;
+    border-radius: 20%;
+}
+.box1{
+    height: 300px;
+    width: 25%;
+    /* background-color: rgb(61, 29, 90); */
+    border-radius: 10%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(68, 58, 102, 0.548), rgba(33, 10, 62, 0.836));
+}
+.box2{
+    height: 300px;
+    width: 25%;
+    border-radius: 10%;
+    padding: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: linear-gradient(rgba(68, 58, 102, 0.548), rgba(33, 10, 62, 0.836));
+}
+
+.box3{
+    height: 300px;
+    width: 25%;
+    border-radius: 10%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(68, 58, 102, 0.548), rgba(33, 10, 62, 0.836));
+
+}
+.box4{
+    height: 300px;
+    width: 25%;
+    border-radius: 10%;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(68, 58, 102, 0.548), rgba(33, 10, 62, 0.836));
+}
+
+
+/* question */
+.question{
+    color: white;
+}
+.title-que{
+    color: white;
+    font-size: larger;
+    padding: 30px 0px 20px;
+    
+}
+/* .blocks{
+    padding: 0px;
+} */
+.block-line{
+    background-color: rgba(36, 36, 36, 0.78);
+    color: white;
+    padding: 20px ;
+    margin: 10px; 
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.block-line:hover{
+    background-color: rgb(59, 58, 58);
+}
+.plus{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+
+/* footer part */
+.footer{
+    padding-top: 50px;
+}
+.email-content{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-email{
+    text-align: center;
+    font-size: medium;
+}
+.last-footer{
+    color: white;
+    font-size: medium;
+    padding-top: 40px;
+}
+.lang2{
+    color: white;
+    background-color: black;
+    font-size: medium;
+    padding: 20px;
+    border-radius: 2%;
+    width: 50%;
+}
+.button2{
+    color: white;
+    font-weight:bold ;
+    background-color: rgba(209, 6, 6, 0.996);
+    font-size: larger;
+    padding: 18px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.button2:hover{
+    background-color: rgb(221, 19, 19);
+}
+.info{
+    display: flex;
+    gap: 10px;
+}
+.line{
+    padding-right: 7rem;
+    text-decoration-line: underline;
+    filter: brightness(85%);
+}
+p{
+    padding: 5px;
+    filter: brightness(85%);
+}
